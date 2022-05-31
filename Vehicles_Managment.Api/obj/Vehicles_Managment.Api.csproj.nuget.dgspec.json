@@ -1,0 +1,118 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Mi\\Downloads\\Vehicles_Api_Managment\\Vehicles_Managment.Api\\Vehicles_Managment.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Mi\\Downloads\\Vehicles_Api_Managment\\Vehicles.Business\\Vehicles.Business.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mi\\Downloads\\Vehicles_Api_Managment\\Vehicles.Business\\Vehicles.Business.csproj",
+        "projectName": "Vehicles.Business",
+        "projectPath": "C:\\Users\\Mi\\Downloads\\Vehicles_Api_Managment\\Vehicles.Business\\Vehicles.Business.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Mi\\Downloads\\Vehicles_Api_Managment\\Vehicles.Entities\\Vehicles.Entities.csproj": {
+                "projectPath": "C:\\Users\\Mi\\Downloads\\Vehicles_Api_Managment\\Vehicles.Entities\\Vehicles.Entities.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Mi\\Downloads\\Vehicles_Api_Managment\\Vehicles.Entities\\Vehicles.Entities.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mi\\Downloads\\Vehicles_Api_Managment\\Vehicles.Entities\\Vehicles.Entities.csproj",
+        "projectName": "Vehicles.Entities",
+        "projectPath": "C:\\Users\\Mi\\Downloads\\Vehicles_Api_Managment\\Vehicles.Entities\\Vehicles.Entities.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Mi\\Downloads\\Vehicles_Api_Managment\\Vehicles_Managment.Api\\Vehicles_Managment.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mi\\Downloads\\Vehicles_Api_Managment\\Vehicles_Managment.Api\\Vehicles_Managment.Api.csproj",
+        "projectName": "Vehicles_Managment.Api",
+        "projectPath": "C:\\Users\\Mi\\Downloads\\Vehicles_Api_Managment\\Vehicles_Managment.Api\\Vehicles_Managment.Api.csproj",
+        "packagesPath": "C:\\Users\\Mi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mi\\Downloads\\Vehicles_Api_Managment\\Vehicles_Managment.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Mi\\Downloads\\Vehicles_Api_Managment\\Vehicles.Business\\Vehicles.Business.csproj": {
+                "projectPath": "C:\\Users\\Mi\\Downloads\\Vehicles_Api_Managment\\Vehicles.Business\\Vehicles.Business.csproj"
+              },
+              "C:\\Users\\Mi\\Downloads\\Vehicles_Api_Managment\\Vehicles.Entities\\Vehicles.Entities.csproj": {
+                "projectPath": "C:\\Users\\Mi\\Downloads\\Vehicles_Api_Managment\\Vehicles.Entities\\Vehicles.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Bogus": {
+              "target": "Package",
+              "version": "[34.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.23, 3.1.23]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

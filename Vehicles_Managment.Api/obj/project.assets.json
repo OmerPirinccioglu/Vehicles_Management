@@ -1,0 +1,154 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Bogus/34.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Bogus.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Bogus.dll": {}
+        }
+      },
+      "Vehicles.Business/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Vehicles.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Vehicles.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vehicles.Business.dll": {}
+        }
+      },
+      "Vehicles.Entities/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Vehicles.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vehicles.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Bogus/34.0.2": {
+      "sha512": "2KQAuMn3fLAQ2r6jeiffZnpv0bi3GCW3iRB2v1KeHIEBu8MNTh9dBlLTZwGvM0pr+9doKkU8L5JgCURmTmT88A==",
+      "type": "package",
+      "path": "bogus/34.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bogus.34.0.2.nupkg.sha512",
+        "bogus.nuspec",
+        "lib/net40/Bogus.dll",
+        "lib/net40/Bogus.xml",
+        "lib/net6.0/Bogus.dll",
+        "lib/net6.0/Bogus.xml",
+        "lib/netstandard1.3/Bogus.dll",
+        "lib/netstandard1.3/Bogus.xml",
+        "lib/netstandard2.0/Bogus.dll",
+        "lib/netstandard2.0/Bogus.xml"
+      ]
+    },
+    "Vehicles.Business/1.0.0": {
+      "type": "project",
+      "path": "../Vehicles.Business/Vehicles.Business.csproj",
+      "msbuildProject": "../Vehicles.Business/Vehicles.Business.csproj"
+    },
+    "Vehicles.Entities/1.0.0": {
+      "type": "project",
+      "path": "../Vehicles.Entities/Vehicles.Entities.csproj",
+      "msbuildProject": "../Vehicles.Entities/Vehicles.Entities.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Bogus >= 34.0.2",
+      "Vehicles.Business >= 1.0.0",
+      "Vehicles.Entities >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Mi\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Mi\\Downloads\\Vehicles_Api_Managment\\Vehicles_Managment.Api\\Vehicles_Managment.Api.csproj",
+      "projectName": "Vehicles_Managment.Api",
+      "projectPath": "C:\\Users\\Mi\\Downloads\\Vehicles_Api_Managment\\Vehicles_Managment.Api\\Vehicles_Managment.Api.csproj",
+      "packagesPath": "C:\\Users\\Mi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Mi\\Downloads\\Vehicles_Api_Managment\\Vehicles_Managment.Api\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Mi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\Mi\\Downloads\\Vehicles_Api_Managment\\Vehicles.Business\\Vehicles.Business.csproj": {
+              "projectPath": "C:\\Users\\Mi\\Downloads\\Vehicles_Api_Managment\\Vehicles.Business\\Vehicles.Business.csproj"
+            },
+            "C:\\Users\\Mi\\Downloads\\Vehicles_Api_Managment\\Vehicles.Entities\\Vehicles.Entities.csproj": {
+              "projectPath": "C:\\Users\\Mi\\Downloads\\Vehicles_Api_Managment\\Vehicles.Entities\\Vehicles.Entities.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "Bogus": {
+            "target": "Package",
+            "version": "[34.0.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.23, 3.1.23]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
